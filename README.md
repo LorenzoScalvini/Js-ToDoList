@@ -1,65 +1,57 @@
-# Todo List Application
+# Advanced Todo List
+A modern **React** application for efficient task management. Features a clean interface with **dark mode** support and **local storage** persistence for seamless task tracking.
 
-A modern task management application featuring real-time updates and theme customization.
+## ⚙️ Features
+- Create, edit and delete tasks
+- Filter tasks by status
+- Dark/Light theme toggle
+- Local storage persistence
+- Real-time updates
 
-## Overview 🎯
-
-A lightweight, browser-based todo list application designed for efficient task management. Features local storage persistence and a clean, professional interface.
-
-## Core Features
-
-- Task Management (Create, Edit, Delete)
-- Status Tracking
-- Filter System
-- Dark/Light Theme
-- Automatic Data Persistence
-
-## Technical Stack
-
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-
-## Implementation
-
-### Project Structure
-
+## 📂 Project Structure
 ```
-project/
-├── index.html
-├── style.css
-└── app.js
+📦advanced-todo-list
+ ┣ 📂src
+ ┃ ┣ 📜index.html
+ ┃ ┣ 📜style.css
+ ┃ ┗ 📜app.js
 ```
 
-### Key Components
+## 🔧 Installation
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/advanced-todo-list.git
+cd advanced-todo-list
+```
 
-- **Frontend**: Modern, responsive interface
-- **State Management**: Local storage implementation
-- **User Interface**: Intuitive task management system
+2. **Open in browser**
+```bash
+# Simply open index.html in your preferred browser
+```
 
-## Getting Started
+## 🛠️ Technologies Used
+- **HTML5**
+- **CSS3**
+- **JavaScript** (ES6+)
+- **Local Storage API**
 
-1. Clone the repository
-2. Open `index.html` in a web browser
-3. Begin managing tasks immediately
+## 💫 Core Features
+- **Task Management**
+  - Add new tasks
+  - Edit existing tasks
+  - Delete tasks
+  - Mark as complete/incomplete
 
-## Usage Guide
+- **Filtering System**
+  - View all tasks
+  - Filter active tasks
+  - Filter completed tasks
 
-### Task Management
+- **Theme Support**
+  - Light/Dark mode toggle
+  - Persistent theme preference
 
-- Add tasks via input field
-- Edit tasks with inline editing
-- Delete tasks using remove button
-- Toggle task completion status
-
-### View Options
-
-- Filter between All/Active/Completed tasks
-- Toggle between light and dark themes
-
-## Browser Support
-
-- Chrome (Latest)
-- Firefox (Latest)
-- Safari (Latest)
-- Edge (Latest)
+- **Data Persistence**
+  - Automatic saving
+  - Browser storage
+  - Session recovery
